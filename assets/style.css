@@ -2,3 +2,37 @@
     color: black;
     background: lightseagreen
 }
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+
+.card
+flex: 1 0 200px
+padding: 10px;
+text-align: center;
+border-style:solid
+border-width: 1px;
+}
+.body{
+
+}
+
+.About Me{
+
+}
+
+.Work{
+
+}
+
+.Contact Me {
+
+}
+
+@media all (max-width:500px) {
+    body { 
+        color:lightseagreen
+    }
+}
