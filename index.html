@@ -6,34 +6,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
         <link rel="stylesheet" href="./assets/style.css">
-    </head>
+        </head>
     <body>
-        <header>
-            <h1 class="header-name">Rhonda Van Dam</h1>
-            <div id="header-image">
-                <img src= "./assets/images/4227-2.jpg" alt="image.png"/>
-            </div>
-            <nav>
-                <div>
-                    <a href="#">About Me</a>
-                    <a href="#">Work</a>
-                    <a href="#">Contact Me</a>
-                    <a href="#">Resume</a>
+        <aside>
+            <header>
+                <h1 class="header-name">Rhonda Van Dam</h1>
+                <div id="header-image">
+                    <img src= "./assets/images/4227-2.jpg" alt="image.png"/>
                 </div>
-            </nav>
-        </header>
-
+                <nav>
+                    <div>
+                        <a href="#">About Me</a>
+                        <a href="#">Work</a>
+                        <a href="#">Contact Me</a>
+                        <a href="#">Resume</a>
+                    </div>
+                </nav>
+            </header>
+        </aside>      
         <main>
+            <aside>
             <div id="about-me">
                 <h2>About Me </h2>
                 <p> This is a paragraph about me</p>
             </div>
-            <div id="work">
+            <div class="work-container" id="work">
                 <h2>Work </h2>
-                <p> This is where I store my projects </p>
-                <img alt=""placeholder"/>
-                <img alt=""placeholder"/>
-                <img alt=""placeholder"/>
+                
+                <div class="work-img" id="tree">
+                    <img src="./assets/images/tree.jpg" alt="placeholder"/>
+                    <a href="#">placeholder</a>
+                    
+                </div>
+                <div class="work-img" id="tree-two">
+                    <img src="./assets/images/tree.jpg" alt="placeholder"/>
+                    <a href="">
+                placeholder</a>
+                    
+                </div>
+                <div class="work-img" id="tree-three">
+                    <img src="./assets/images/tree.jpg" alt="placeholder"/>
+                    <a href="">
+                placeholder</a>
+                    
+                </div>
             </div>
             <div id="contact-me">
                 <h2>Contact Me</h2>
@@ -45,5 +61,6 @@
                 </ul>
             </div>
         </main>
+    </aside>
     </body>
 </html>

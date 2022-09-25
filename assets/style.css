@@ -5,23 +5,23 @@
 }
 header {
     display:flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: tan;
     border: black 5px solid;
     border-radius: 20px;
 
 }
-/* .header-name {
-   
-   
-} */
-#header-image {
-    border: black 5px solid;
-    
+nav {
+    display: flex;
+    flex-wrap: wrap;
 }
+    
+
 main{
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -34,19 +34,67 @@ main{
 
 
 #work {
+    flex-flow: column;
+    position: relative;
+    text-align: center;
     background-color: rgb(177, 124, 26);
     border-bottom: black 5px solid;
     margin-top: 15px;
 }
-
+.work-img img{
+    height: 100px;
+    width: 150px;
+}
+.work-container { 
+    
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+}   
+#tree a{
+    position:absolute;
+    top: 20%;
+    left: 45%;
+    
+    color:white;
+    border: black 3px solid; 
+    background-color: black;
+}
+#tree-two a{
+    position:absolute;
+    top: 50%;
+    left: 45%;
+    
+    color:white;
+    border: black 3px solid; 
+    background-color: black;
+}
+#tree-three a{
+    position:absolute;
+    top: 80%;
+    left: 45%;
+    
+    color:white;
+    border: black 3px solid; 
+    background-color: black;
+}
 #contact-me {
     background-color: gray;
     border-bottom: black 5px solid;
     margin-top: 15px;
 }
 
-@media all and  (max-width:500px) {
+@media screen and  (max-width:500px) {
     body { 
-        color: pink
+        color: black;
+        
+    main,
+    nav{
+        flex-direction: column;
+        
     }
+#header-image{
+    height: 100px;
+    width: 150px;
 }
+
