@@ -7,46 +7,42 @@ header {
     display:flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    background-color: aquamarine;
+    background-color: tan;
     border: black 5px solid;
     border-radius: 20px;
 
 }
-.header-name {
+/* .header-name {
    
    
-}
+} */
 #header-image {
-    border: black 3px dotted;
+    border: black 5px solid;
     
 }
 main{
-    background-color: pink;
+    background-color: white;
+    
 }
 
 
-.card{
-flex: 1 0 200px;
-padding: 10px;
-text-align: center;
-border-style:solid;
-border-width: 1px;
+#about-me {
+    background-color: gray;
+    border-bottom: black 5px solid;
+    margin-top: 15px;
 }
 
-body {
 
+#work {
+    background-color: rgb(177, 124, 26);
+    border-bottom: black 5px solid;
+    margin-top: 15px;
 }
 
-About Me {
-
-}
-
-Work {
-
-}
-
-Contact Me {
-
+#contact-me {
+    background-color: gray;
+    border-bottom: black 5px solid;
+    margin-top: 15px;
 }
 
 @media all and  (max-width:500px) {
