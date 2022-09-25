@@ -1,38 +1,56 @@
-.background {
-    color: black;
-    background: lightseagreen
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: aquamarine;
+    border: black 5px solid;
+    border-radius: 20px;
+
+}
+.header-name {
+   
+   
+}
+#header-image {
+    border: black 3px dotted;
+    
+}
+main{
+    background-color: pink;
 }
 
-.main{
-    display:flex;
-    flex-wrap: wrap;
-    margin-top: auto;
 
-.card
-flex: 1 0 200px
+.card{
+flex: 1 0 200px;
 padding: 10px;
 text-align: center;
-border-style:solid
+border-style:solid;
 border-width: 1px;
 }
-.body{
+
+body {
 
 }
 
-.About Me{
+About Me {
 
 }
 
-.Work{
+Work {
 
 }
 
-.Contact Me {
+Contact Me {
 
 }
 
-@media all (max-width:500px) {
+@media all and  (max-width:500px) {
     body { 
-        color:lightseagreen
+        color: pink
     }
 }
