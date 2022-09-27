@@ -1,106 +1,98 @@
-
-*{
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 header {
-    position:relative;
-    display: flexbox;
-    flex-wrap: flow;
-    text-align: center;
-    display: flexbox;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: tan;
-    border: black 5px solid;
-    border-radius: 20px;
+  position: relative;
+  display: flexbox;
+  flex-wrap: flow;
+  text-align: center;
+  display: flexbox;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: tan;
+  border: black 5px solid;
+  border-radius: 20px;
 }
-.header-image{
-    position: relative;
+.header-image {
+  position: relative;
 }
 nav {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
-    
-main{
-    background-color: white;
-    position:relative;
-    display: flexbox;
-    flex-wrap: flow;
-    text-align: center;
-    
+
+main {
+  background-color: white;
+  position: relative;
+  display: flexbox;
+  flex-wrap: flow;
+  text-align: center;
 }
 
 #about-me {
-    flex-flow: column;
-    position: relative;
-    text-align: center;
-    background-color: gray;
-    border-bottom: black 5px solid;
-    margin-top: 15px;
+  flex-flow: column;
+  position: relative;
+  text-align: center;
+  background-color: gray;
+  border-bottom: black 5px solid;
+  margin-top: 15px;
 }
 
 #work {
-    flex-flow: column;
-    position: relative;
-    text-align: center;
-    background-color: rgb(177, 124, 26);
-    border-bottom: black 5px solid;
-    margin-top: 15px;
+  flex-flow: column;
+  position: relative;
+  text-align: center;
+  background-color: rgb(177, 124, 26);
+  border-bottom: black 5px solid;
+  margin-top: 15px;
 }
-.work-img img{
-    height: 100px;
-    width: 150px;
+.work-img img {
+  height: 100px;
+  width: 150px;
 }
-.work-container { 
-    
-    position:relative;
-    display: flex;
-    flex-wrap: wrap;
-}   
-#tree a{
-    position:absolute;
-    top: 20%;
-    left: 45%;
-    
-    color:white;
-    border: black 3px solid; 
-    background-color: black;
+.work-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
-#tree-two a{
-    position:absolute;
-    top: 50%;
-    left: 45%;
-    
-    color:white;
-    border: black 3px solid; 
-    background-color: black;
+#tree a {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+
+  color: white;
+  border: black 3px solid;
+  background-color: black;
 }
-#tree-three a{
-    position:absolute;
-    top: 80%;
-    left: 45%;
-    
-    color:white;
-    border: black 3px solid; 
-    background-color: black;
+#tree-two a {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+
+  color: white;
+  border: black 3px solid;
+  background-color: black;
+}
+#tree-three a {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+
+  color: white;
+  border: black 3px solid;
+  background-color: black;
 }
 #contact-me {
-    background-color: gray;
-    border-bottom: black 5px solid;
-    margin-top: 15px;
+  background-color: gray;
+  border-bottom: black 5px solid;
+  margin-top: 15px;
 }
-@media screen and  (max-width:500px) {
-    body { 
-        color: black;
+@media screen and (min-width: 500px) {
+  body {
+    color: black;
+  }
+}
 
-@media screen and  (max-width:500px) {
-    flex-flow{
-     grid-template: row;: repeat (4,1fr);  
-    }
-
- @media screen and  (max-width:760px) {
-    .wrapper-grid{
-        grid-template-columns: repeat (3,1fr);
-    }
+@media screen and (min-width: 760px) {
+}
