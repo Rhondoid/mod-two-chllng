@@ -8,6 +8,8 @@ Module 2 portfolio challenge
 ## Usage
 
 https://rhondoid.github.io/mod-two-chllng/
+![image](https://user-images.githubusercontent.com/110504360/215277134-3baddb01-13c7-45a6-8595-f4beaa6a6256.png)
+
 
 ## Credits
 Special thanks to Spencer Merill
