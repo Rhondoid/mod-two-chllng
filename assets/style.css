@@ -47,38 +47,38 @@ main {
   border-bottom: black 5px solid;
   margin-top: 15px;
 }
-.work-img img {
-  height: 100px;
-  width: 150px;
+
+.work-img img{
+  height: 400px;
+  width: 450px;
 }
-.work-container {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-}
+
 #tree a {
+  height: 50px;
+  width: 150px;
   position: absolute;
   top: 20%;
   left: 45%;
-
   color: white;
   border: black 3px solid;
   background-color: black;
 }
 #tree-two a {
+  height: 50px;
+  width: 150px;
   position: absolute;
   top: 50%;
   left: 45%;
-
   color: white;
   border: black 3px solid;
   background-color: black;
 }
 #tree-three a {
+  height: 50px;
+  width: 150px;
   position: absolute;
   top: 80%;
   left: 45%;
-
   color: white;
   border: black 3px solid;
   background-color: black;
