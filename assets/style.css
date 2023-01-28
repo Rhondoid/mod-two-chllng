@@ -18,8 +18,9 @@ header {
   position: relative;
 }
 nav {
-  display: flex;
-  flex-wrap: wrap;
+  display: flexbox;
+  flex-direction: space-between;
+  
 }
 
 main {
@@ -40,6 +41,7 @@ main {
 }
 
 #work {
+  max-width: 100%;
   flex-flow: column;
   position: relative;
   text-align: center;
@@ -47,10 +49,11 @@ main {
   border-bottom: black 5px solid;
   margin-top: 15px;
 }
+
 /* Resizes the work image tag background with the first one bigger */
 .work-img img {
-  height: 400px;
-  width: 450px;
+  height: 300px;
+  width: 350px;
 }
 .work-img-two img {
   height: 200px;
@@ -65,7 +68,7 @@ main {
   height: 50px;
   width: 150px;
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 45%;
   color: white;
   border: black 3px solid;
@@ -75,7 +78,7 @@ main {
   height: 50px;
   width: 150px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 45%;
   color: white;
   border: black 3px solid;
@@ -95,6 +98,7 @@ main {
   background-color: gray;
   border-bottom: black 5px solid;
   margin-top: 15px;
+  margin-bottom: 30%;
 }
 @media screen and (min-width: 500px) {
   body {
